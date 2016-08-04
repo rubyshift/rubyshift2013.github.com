@@ -1,0 +1,122 @@
+body { background-color: #f7f7f7; padding-top: 0; }
+.container-fluid { background-color: #fff; padding-left: 60px; padding-right: 60px; }
+
+header .container-fluid {
+  padding: 0;
+}
+
+.hero-unit {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url('wall4.png');
+  border-radius: none;
+}
+
+.hero-unit .date {
+  display: inline-block;
+  margin-top: 8em;
+}
+
+.hero-unit h2 {
+  /*color: #fff;*/
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+  /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);*/
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.hero-unit ul li {
+  border-radius: 0;
+}
+.hero-unit ul li a {
+  text-transform: uppercase;
+  line-height: 36px;
+  margin-right: 10px;
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #535353;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 0;
+}
+.hero-unit ul li.active a {
+  background: #fff;
+  color: #535353;
+}
+
+.section h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Speakers */
+
+#speakers li {
+  display: block;
+  float: left;
+  width: 47%;
+  padding: 1.5em 3% 0 0;
+  font-weight: 600;
+  font-size: .875em;
+}
+#speakers li img {
+  max-width: 100%;
+}
+#speakers li address a {
+  display: block;
+  padding: .375em 0 0 0;
+  color: #535353;
+}
+#speakers li a:hover img {
+  opacity: .85;
+}
+#speakers li:hover a,
+#speakers li a:hover {
+  color: #ce532d;
+}
+#speakers li {
+  width: 11%;
+  padding-right: 1.5%;
+  vertical-align: top;
+}
+
+/* Sponsors */
+
+#sponsors ul {
+  text-align: center;
+  border-bottom: solid 1px #ddd;
+  padding: 0 0 1.5em 0;
+  margin: 0 0 1.5em 0;
+}
+
+#sponsors li {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#sponsors .level1 li {
+  width: 25%;
+  padding: 1em;
+}
+
+#sponsors .level2 li {
+  width: 20%;
+  padding: 1em;
+}
+
+#sponsors .level3 li {
+  width: 15%;
+  padding: 1em;
+}
+
+/* Clearfix */
+
+.clearfix:after, .group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
